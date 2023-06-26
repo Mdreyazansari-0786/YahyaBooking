@@ -1,0 +1,93 @@
+.container{
+    width: 100%;
+    /* height: 90vh; */
+    background-color: #18458b;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    /* padding: 40px; */
+    padding-bottom: 100px;
+    max-width: 1680px;
+}
+
+.container .first, .second, .last{
+    width: 33%;
+}
+
+.container .first h3, .sec h3{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.container .first{
+    margin-left: 200px;
+}
+/* .container .last{
+    margin-left: 40px;
+    margin-top: -40px;
+} */
+.container .first p{
+    font-size: 14px;
+    color: white;
+    width: 380px;
+    margin: 20px 0;
+}
+.container .first .social1{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+.container .first .social1 span{
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    display: flex;
+    border: 1px solid #3aaced ;
+    color: #3aaced;
+    /* background: rgb(89, 88, 88); */
+    opacity: 10;
+    padding-left:6px ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container .first .social1 span:hover{
+    color: orange;
+
+}
+
+.container .last{
+    /* background: yellow; */
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+.container .last h3{
+    font-size: 20px;
+    /* padding: 3px 0; */
+    padding-bottom: 40px;
+}
+
+.container .last p{
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.container .sec .main{
+    /* background: blue; */
+    display: inline-block;
+    flex-direction: column;
+}
+
+.container .sec .main .img{
+    display: flex;
+    padding: 10px 0;
+    gap: 20px;
+}
+.container .sec .main .img img{
+    width: 130px;
+    border-radius: 8px;
+}

@@ -1,0 +1,26 @@
+.App {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .scrolling-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    
+  }
+  
+  .scroll-button {
+    padding: 8px;
+  }
+  
+  .demo{
+    background: yellow;
+  }
+  .demo svg{
+    color: blue;
+  }
+  .demo .icoo{
+    color: white;
+  }

@@ -1,0 +1,27 @@
+.containerr{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+
+}
+.containerr .star{
+    margin-left: 47%;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    padding: 3px 0;
+}
+.containerr .line{
+    width: 100px;
+    height: 4px;
+    background: #3aaced;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.containerr p{
+    color: #878c9f;
+    font-size: 13px;
+}
